@@ -119,6 +119,11 @@ p, li {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 1200px) {
+  .s2 .center-wrap .project-minidesc__wrap .project-minidesc__text {
+    padding-left: 0;
+  }
+}
 .s2 .center-wrap .project-minidesc__wrap .project-minidesc__text h4 {
   display: block;
   width: 30%;
@@ -374,6 +379,12 @@ p, li {
   background: #F4F4F4;
   border-radius: 30px;
 }
+@media (max-width: 1200px) {
+  .s7 .center-wrap .project-fulldesc__block .project-fulldesc__grid {
+    height: 100%;
+    padding: 5rem 2rem;
+  }
+}
 .s7 .center-wrap .project-fulldesc__block .project-fulldesc__grid img {
   position: absolute;
   bottom: 0;
@@ -391,7 +402,7 @@ p, li {
 @media (max-width: 1200px) {
   .s7 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block {
     height: 100%;
-    padding: 2rem 2rem;
+    padding: 0;
   }
 }
 .s7 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block h4 {
@@ -423,8 +434,9 @@ p, li {
 }
 @media (max-width: 1200px) {
   .s7 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block:first-of-type {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -560,7 +572,21 @@ p, li {
 }
 
 .s12 {
-  padding: 5rem 0 !important;
+  padding: 5rem 0 15rem 0 !important;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .s12 {
+    padding: 5rem 0 2rem 0 !important;
+  }
+}
+.s12 .s12__ellipse {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 .s12 .center-wrap .project-fulldesc__block .project-fulldesc__grid {
   align-items: end;
@@ -596,6 +622,11 @@ p, li {
   color: #14864A;
   margin-right: 1.5rem;
 }
+@media (max-width: 1200px) {
+  .s12 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block table tr td h4 {
+    font-size: 24px;
+  }
+}
 .s12 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block table tr td span {
   font-family: "Mont";
   font-style: normal;
@@ -604,6 +635,11 @@ p, li {
   line-height: 130%;
   text-transform: uppercase;
   color: #111111;
+}
+@media (max-width: 1200px) {
+  .s12 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block table tr td span {
+    font-size: 24px;
+  }
 }
 .s12 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block table::before {
   content: "";
@@ -624,6 +660,7 @@ p, li {
   padding: 5rem 0 !important;
   background: url(../img/s13-back.png) no-repeat center center/cover;
   height: 888px;
+  border: none;
 }
 @media (max-width: 1200px) {
   .s13 {
@@ -647,7 +684,7 @@ p, li {
 @media (max-width: 1200px) {
   .s13 .center-wrap h3 {
     color: #000;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
 }
@@ -659,7 +696,7 @@ p, li {
 }
 @media (max-width: 1200px) {
   .s13 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block:first-of-type {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 .s13 .center-wrap .project-fulldesc__block .project-fulldesc__grid .project-fulldesc__grid-block:first-of-type li {
